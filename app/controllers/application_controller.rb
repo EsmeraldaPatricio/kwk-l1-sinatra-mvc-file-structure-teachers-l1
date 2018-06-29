@@ -8,13 +8,13 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    return erb :index
+    return erb :food
   end
   
-  post '/' do   #we click the button now what?
-    @the_fortune=get_fortune  #method get_fortune is connected to the instance variable @the_fortune
-    @the_user=params[:user]  #creating a new  instance variable the_user
-    #hash that stores user input ex: user => value
-    return erb :results
-  end 
-end
+#   post '/' do   #we click the button now what?
+#     @the_fortune=get_fortune  #method get_fortune is connected to the instance variable @the_fortune
+#     @the_user=params[:user]  #creating a new  instance variable the_user
+#     #hash that stores user input ex: user => value
+#     return erb :results
+#   end 
+# end
