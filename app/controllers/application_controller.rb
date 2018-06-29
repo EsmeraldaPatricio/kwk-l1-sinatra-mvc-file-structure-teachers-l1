@@ -17,4 +17,4 @@ class ApplicationController < Sinatra::Base
 #     #hash that stores user input ex: user => value
 #     return erb :results
 #   end 
-# end
+end
